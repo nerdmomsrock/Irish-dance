@@ -1,0 +1,51 @@
+/* 
+
+Project Name: Irish Dance 
+Client: Clann Na Cara
+Author: Ryan Morgan 
+Developed @ One Month HTML 
+
+*/
+
+body {
+    background: url("../images/juju-lj.jpeg");
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: right;
+	background-attachment: fixed;
+	-webkit-background-size: 400px; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: 400px;
+	-o-background-size: cover;
+	background-size: 570px;
+
+}
+#container {
+    background: #e94989;
+    width: 400px;
+
+    color: #006a45;
+    padding: 19px;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Fondamento', cursive;
+
+
+}
+h2 {
+    background: #f65e23;
+    color: #1b5563;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+
+}
+
+
+a {
+    color: #4da4c3;
+    text-decoration: none;
+}
